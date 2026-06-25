@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#87CEEB;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    width:350px;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.search-box{
+    margin:20px 0;
+}
+
+input{
+    padding:10px;
+    width:70%;
+}
+
+button{
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+#weather{
+    margin-top:20px;
+}
